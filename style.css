@@ -1,0 +1,27 @@
+.bg-body-tertiary{
+    background-color: #1A187A !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white !important;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.nav-img{
+    width: 20%;
+}
+.fa-solid{
+    color: white;
+}
+.nav-form{
+    margin-left: 12%;
+    width: 30%;
+}
+@media screen and (max-width: 600px) {
+    .nav-form{
+        display: none !important;
+    }
+    .fa-solid{
+        display: none !important;
+    }
+  }
