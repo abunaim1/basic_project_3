@@ -1,27 +1,28 @@
-.bg-body-tertiary{
-    background-color: #1A187A !important;
+.bg-body-tertiary {
+  background-color: #1a187a !important;
 }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-    color: white !important;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: white !important;
 }
-.navbar-toggler{
-    background-color: white !important;
+.navbar-toggler {
+  background-color: white !important;
 }
-.nav-img{
-    width: 20%;
+.nav-img {
+  width: 20%;
 }
-.fa-solid{
-    color: white;
+.fa-solid {
+  color: white;
 }
-.nav-form{
-    margin-left: 12%;
-    width: 30%;
+.nav-form {
+  margin-left: 12%;
+  width: 30%;
 }
 @media screen and (max-width: 600px) {
-    .nav-form{
-        display: none !important;
-    }
-    .fa-solid{
-        display: none !important;
-    }
+  .nav-form {
+    display: none !important;
   }
+  .fa-solid {
+    display: none !important;
+  }
+}
