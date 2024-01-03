@@ -145,8 +145,17 @@
   margin: auto;
   text-align: center;
 }
-.sale-text p{
-  
+footer{
+  height: 50vh;
+  width: 100%;
+  background-color: black;
+}
+footer img{
+  height: 2rem;
+  width: fit-content;
+}
+.copyright{
+  padding-top: 200px;
 }
 @media screen and (max-width: 600px) {
   .nav-form {
@@ -218,5 +227,19 @@
   .cards{
     flex-direction: column;
     row-gap: 30px;
+  }
+  .sale-pic img{
+    display: none;
+  }
+  .sale-text{
+    width: 100%;
+    margin: auto;
+    text-align:justify;
+  }
+  .footer-body{
+    flex-direction: column;
+  }
+  .copyright{
+    display: none;
   }
 }
