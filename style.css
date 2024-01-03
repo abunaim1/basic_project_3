@@ -132,6 +132,21 @@
   width: 100%;
   height: 55vh;
   background-color: #958AD4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sale-pic img{
+  height: 50vh;
+  width: 350px;
+}
+.sale-text{
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+.sale-text p{
+  
 }
 @media screen and (max-width: 600px) {
   .nav-form {
